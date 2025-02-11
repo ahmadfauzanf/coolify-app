@@ -7,6 +7,6 @@ app.get("/", (req, res) => {
 	res.send("Hello From This APP !!!")
 })
 
-app.listen(port, 90 => {
-	console.log(`app running on port ${port}')
+app.listen(port, ()  => {
+	console.log(`app running on port ${port}`)
 })
